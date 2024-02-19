@@ -37,7 +37,7 @@ const Home = () => {
           Submit
         </Button>
       </Form>
-      {showSuccess && <Alert variant="success" className="mt-3">Email submitted successfully!</Alert>}
+      {showSuccess && <Alert variant="success" className="mt-3">Email submitted successfully to {email}!</Alert>}
     </div>
   );
 };
